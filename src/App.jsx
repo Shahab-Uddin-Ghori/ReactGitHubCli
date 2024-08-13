@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import "./responsive.css";
 import Header from "./header";
 import MainSec from "./mainSec";
 import Footer from "./img/footer";

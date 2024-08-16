@@ -1,5 +1,8 @@
 import assetImg1 from "./img/asset1.svg";
 import assetImg3 from "./img/asset3.svg";
+import Type1js from "./type1js";
+import Type2 from "./type2js";
+import Type3 from "./type3";
 
 const MainSec = () => {
   //  <!-- ********************************************* Main ******************************************** -->
@@ -42,12 +45,17 @@ const MainSec = () => {
         <div className="cli-interface-sec">
           <div className="cli-interface-top-content">
             <span>&dollar;</span>
-            <p className="cli-title"></p>
+            <p className="cli-title">
+              <Type1js />
+            </p>
             <br />
           </div>
           <div className="cli-interface-top-content">
             <p>
-              &nbsp;<a href="" className="cli-title-detail"></a>
+              &nbsp;
+              <a href="" className="cli-title-detail">
+                <Type2 />
+              </a>
             </p>
           </div>
           <div className="cli-interface">
@@ -62,7 +70,9 @@ const MainSec = () => {
               </a>
             </div>
             <div className="cli-interface-content">
-              <p className="interface-text"></p>
+              <p className="interface-text">
+                <Type3 />
+              </p>
             </div>
           </div>
           <div className="cli-interface-bottom-content">

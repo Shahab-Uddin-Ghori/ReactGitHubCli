@@ -13,9 +13,6 @@ const App = () => {
   return (
     <>
       <Header />
-      <Type1js />
-      <Type2 />
-      <Type3 />
       <MainSec />
       <Footer />
     </>
